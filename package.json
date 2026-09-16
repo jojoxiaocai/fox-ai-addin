@@ -1,7 +1,7 @@
 {
   "name": "pi-for-excel",
   "version": "0.10.0-pre",
-  "description": "Open-source, multi-model AI sidebar add-in for Excel. Powered by Pi.",
+  "description": "FOX AI addin — a multi-model AI assistant sidebar for Excel, powered by Pi.",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3141",

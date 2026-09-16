@@ -598,13 +598,13 @@ export function createOfficeStreamFn(
     if (!proxyUrl) {
       if (needsOpenRouterProxy) {
         throw new Error(
-          "OpenRouter's native Anthropic transport requires the Pi for Excel proxy in this browser. " +
+          "OpenRouter's native Anthropic transport requires the FOX AI addin proxy in this browser. " +
           "Enable Proxy in Settings and run the latest pi-for-excel-proxy helper.",
         );
       }
       if (needsCodexBridge) {
         throw new Error(
-          "GPT-5.6 Luna currently requires the latest Pi for Excel proxy for ChatGPT WebSocket transport. " +
+          "GPT-5.6 Luna currently requires the latest FOX AI addin proxy for ChatGPT WebSocket transport. " +
           "Enable Proxy in Settings and run: npx -y pi-for-excel-proxy@latest",
         );
       }
@@ -622,7 +622,7 @@ export function createOfficeStreamFn(
       const bridgeSupported = await proxySupportsCodexWebSocketBridge(validated);
       if (!bridgeSupported) {
         throw new Error(
-          "GPT-5.6 Luna requires a newer Pi for Excel proxy with ChatGPT WebSocket support. " +
+          "GPT-5.6 Luna requires a newer FOX AI addin proxy with ChatGPT WebSocket support. " +
           "Restart with: npx -y pi-for-excel-proxy@latest (central deployments: ask your administrator to upgrade the proxy).",
         );
       }

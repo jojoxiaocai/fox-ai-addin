@@ -693,7 +693,7 @@ export async function showFilesWorkspaceDialog(): Promise<void> {
     if (isFilesDialogBuiltInDoc(file)) {
       nodes.push(createInfoCallout({
         icon: lucide(ClipboardList),
-        body: ["Built-in documentation — read only. Pi references this automatically."],
+        body: ["Built-in documentation — read only. FOX AI references this automatically."],
       }));
     }
 

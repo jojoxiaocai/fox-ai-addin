@@ -1026,7 +1026,7 @@ export async function initTaskpane(opts: {
             showErrorBanner(
               errorRoot,
               autoCompactEnabled
-                ? "Context window exceeded — Pi will try compacting older history and retrying once. If this error persists, run /compact, scope your request to a smaller range, or use a larger-context model."
+                ? "Context window exceeded — FOX AI will try compacting older history and retrying once. If this error persists, run /compact, scope your request to a smaller range, or use a larger-context model."
                 : "Context window exceeded. Run /compact to free up context, scope your request to a smaller range, or use a larger-context model.",
             );
           } else if (isLikelyCorsErrorMessage(err)) {
@@ -1933,7 +1933,7 @@ export async function initTaskpane(opts: {
       return;
     }
 
-    const description = trigger.getAttribute("data-tooltip") ?? "Choose how deeply Pi reasons before responding.";
+    const description = trigger.getAttribute("data-tooltip") ?? "Choose how deeply FOX AI reasons before responding.";
 
     toggleThinkingPopover({
       anchor: trigger,

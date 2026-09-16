@@ -1,9 +1,9 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="ribbon.OnAddinLoad">
   <ribbon startFromScratch="false">
     <tabs>
-      <tab id="PiForWpsTab" label="Pi for Excel" insertBeforeMso="TabHome">
-        <group id="PiForWpsGroup" label="Pi for Excel">
-          <button id="PiOpenTaskpaneButton" label="Open Pi" size="large" onAction="ribbon.OnAction" enabled="true" getImage="ribbon.GetImage" visible="true" />
+      <tab id="PiForWpsTab" label="FOX AI addin" insertBeforeMso="TabHome">
+        <group id="PiForWpsGroup" label="FOX AI addin">
+          <button id="PiOpenTaskpaneButton" label="Open FOX AI" size="large" onAction="ribbon.OnAction" enabled="true" getImage="ribbon.GetImage" visible="true" />
         </group>
       </tab>
     </tabs>

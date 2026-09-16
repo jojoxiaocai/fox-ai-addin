@@ -21,10 +21,10 @@ function modeUsageText(): string {
 
 function modeDescription(mode: ExecutionMode): string {
   if (mode === "yolo") {
-    return `${formatExecutionModeLabel(mode)} mode — Pi applies workbook changes immediately.`;
+    return `${formatExecutionModeLabel(mode)} mode — FOX AI applies workbook changes immediately.`;
   }
 
-  return `${formatExecutionModeLabel(mode)} mode — Pi asks before each workbook change.`;
+  return `${formatExecutionModeLabel(mode)} mode — FOX AI asks before each workbook change.`;
 }
 
 function parseExecutionModeArg(input: string): "status" | "toggle" | ExecutionMode | null {

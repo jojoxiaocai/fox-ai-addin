@@ -92,7 +92,8 @@
 }
 .pi-status-model__mark {
   font-family: var(--font-sans);
-  font-size: var(--text-base);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
   font-weight: 700;
   color: var(--primary);
   line-height: 1;
